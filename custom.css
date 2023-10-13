@@ -1,7 +1,7 @@
 /* Custom Styles */
 
 #titlebar {
-appearance: none !important;
+  appearance: none !important;
 }
 
 #sidebar-header {
@@ -24,7 +24,7 @@ appearance: none !important;
 }
 #TabsToolbar {
 	background-image: none !important;    /* Windows 7 */
-} 
+/*} 
 /* 
 /* referenced from what FF does when using some persona themes */
 /* :root {
