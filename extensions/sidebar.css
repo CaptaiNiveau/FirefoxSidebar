@@ -36,7 +36,7 @@
   position: relative !important;
   margin-top: var(--menubar-height) !important;
   border-right: none;
-  transition: none !important;
+  transition: 0.25s !important;
 
   /* lock sidebar to specified width */
   min-width: var(--sidebar-width) !important;
@@ -70,6 +70,7 @@
   max-width: 350px !important;
   z-index: 999;
   margin-right: -300px !important;
+  a
 }
 
 /*Tree Style Tabs && Sideberry specific sidebar width and size*/
