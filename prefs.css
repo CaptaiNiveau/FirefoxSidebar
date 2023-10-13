@@ -6,16 +6,16 @@
 
 :root {
   --sidebar-width: 50px;
-  --toolbar-height: -50px;
-  --menubar-height: -74px;
+  --toolbar-height: 0px;
+  --menubar-height: 0px;
   --sidebar-padding: calc(var(--sidebar-width) + 5px);
-  --toolbar-start-end-padding: 5px !important;
+  --toolbar-start-end-padding: 10px !important;
 
   /* Custom Sidebar/Header Backround :: 
      This sets the background for the other sidebar options (bookmarks, history, in case it is transparent from a theme that is not set up properly 
   */
     /* --custom-sidebar-bg: Field; /* Default: Field (Disabled) */
-    --custom-sidebar-header-bg: #000; /* Default: Field (Disabled) */
+    --custom-sidebar-header-bg: #999; /* Default: Field (Disabled) */
 
   /* ====== Extension Settings ====== */
 
@@ -32,18 +32,16 @@
       Default: --csd-left: 50px; --csd-margin-left: 92px;
     */
     
-      /*
-        --csd-left: 50px;
-        --csd-margin-left: 92px;
-      */
+    --csd-left: 10px;
+    --csd-margin-left: 50px;
 
     /*
       CSD - Right Side ===
       Defaults: --csd-right: 0px; --csd-margin-right: 95px;
     */ 
 
-      --csd-right: 36px;
-      --csd-margin-right: 130px;
+    --csd-right: 0px;
+    --csd-margin-right: 0px;
 
   /* === END: Window Control / Client Side Display Settings === */
 
