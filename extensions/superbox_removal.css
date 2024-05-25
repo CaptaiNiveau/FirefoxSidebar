@@ -5,7 +5,7 @@
 */
 
 /* --- Prevent enlargement */
-#urlbar[breakout-extend] {
+/*#urlbar[breakout-extend] {
   top: calc(
     (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
   ) !important;
@@ -15,10 +15,10 @@
 
 #urlbar[breakout-extend] #urlbar-input-container {
   height: var(--urlbar-height) !important;
-  /* padding: 0px !important; */
+  /* padding: 0px !important; *//*
   padding-block: 0px !important;
   padding-inline: 0px !important;
-}
+}*/
 .urlbarView-row {
   padding: 0px 2px 0px 2px;
 }
