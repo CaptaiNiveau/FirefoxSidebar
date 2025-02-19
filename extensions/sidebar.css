@@ -36,7 +36,7 @@
   position: relative !important;
   margin-top: var(--menubar-height) !important;
   border-right: none;
-  transition: 0.25s !important;
+  transition: 0.2s !important;
 
   /* lock sidebar to specified width */
   min-width: var(--sidebar-width) !important;
@@ -64,23 +64,24 @@
   top: 42px;
 }
 
-/*All other sidebar-boxes should be larger on hover*/
+All other sidebar-boxes should be larger on hover
 #sidebar-box:hover, #sidebar-box #sidebar:hover {
   min-width: 350px !important;
   max-width: 350px !important;
   z-index: 999;
   margin-right: -300px !important;
-  a
 }
 
 /*Tree Style Tabs && Sideberry specific sidebar width and size*/
 
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover,
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]:hover,
-#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] #sidebar:hover {
-  min-width: 260px !important;
-  max-width: 260px !important;
-  margin-right: -210px !important;
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"]:hover .child-element[data-selected="true"],
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] #sidebar:hover 
+#sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] #sidebar:hover .child-element[data-selected="true"] {
+  min-width: 350px !important;
+  max-width: 350px !important;
+  margin-right: -300px !important;
 }
 
 #sidebar-header {
